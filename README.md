@@ -26,5 +26,7 @@ then run the server on the google cloud machine using previous server command
 Then you can open local file index.html on your browser. Also, anyone in a different network can join same chatroom using the same ssh to log, and just using index.html.
 
 ## Dependencies
-  -npm 6.8.0
-  -v8.10.0
+ - npm 6.8.0
+ - node v8.10.0
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
