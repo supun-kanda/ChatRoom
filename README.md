@@ -3,7 +3,6 @@ This app is made for demonstrating the usage of WebSockets in a very simple mann
 
 BackEnd is on nodejs
 you have to install ws module using
-
 ```
 npm i ws
 ```
@@ -25,3 +24,7 @@ ssh -L 5000:localhost:5000 -i PathToLocalRSAKey userName@publicIP
 then run the server on the google cloud machine using previous server command
 
 Then you can open local file index.html on your browser. Also, anyone in a different network can join same chatroom using the same ssh to log, and just using index.html.
+
+## Dependencies
+  -npm 6.8.0
+  -v8.10.0
